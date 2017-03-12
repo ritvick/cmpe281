@@ -1,0 +1,39 @@
+{
+  "name": "Sensor-Cloud-Data-Collector",
+  "version": "2.1.0",
+  "description": "Mobile sensor cloud for CMPE 281",
+  "repository": {
+    "type": "git",
+    "url": "https://itbucket.org/ritvick/cmpe281sensorcloud.git"
+  },
+  "author": "Ritvick Paliwal",
+  "contributors": [
+    {
+      "name": "Ritvick Paliwal",
+      "email": "ritvick.paliwal@gmail.com"
+    }
+  ],
+  "scripts": {
+    "start": "node sensorDataCollector.js"
+  },
+  "dependencies": {
+    "assert": "^1.4.1",
+    "body-parser": "^1.11.0",
+    "cookie-parser": "^1.4.0",
+    "csurf": "^1.8.3",
+    "ejs": "^2.3.4",
+    "express": "^4.13.3",
+    "express-partials": "^0.3.0",
+    "express-rate-limit": "^2.0.2",
+    "express-secure-only": "^0.2.1",
+    "guid": "0.0.12",
+    "helmet": "^1.3.0",
+    "http": "0.0.0",
+    "moment": "^2.13.0",
+    "mongodb": "^2.1.19",
+    "promise": "~7.0.4",
+    "q": "^1.4.1",
+    "request": "^2.72.0",
+    "watson-developer-cloud": "^1.2.5"
+  }
+}
